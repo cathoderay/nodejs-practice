@@ -10,6 +10,7 @@ console.log(global)
 console.log(process)
 
 //console
+//see console.js
 console.log(console)
 
 //Buffer: handles binary data
