@@ -25,16 +25,18 @@ console.log(require.resolve)
 console.log(require.cache)
 
 //__filename: current filename being executed
-//__filename is local to each module
+//local to each module
 console.log(__filename)
 
 //__dirname: current dirname
+//local to each module
 console.log(__dirname)
 
 //module: reference to current module
 console.log(module)
 
 //exports: object shared between all instances of the current module
+//local to each module
 console.log(exports)
 
 //setTimeout: schedules a function
