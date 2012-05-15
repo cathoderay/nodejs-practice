@@ -15,8 +15,7 @@ console.warn('warning')
 console.error('error')
 
 //console.dir
-obj = {'a': 1}
-console.dir(obj)
+console.dir({'foo': 'bar'})
 
 //console.time
 console.time('id')
@@ -27,6 +26,6 @@ console.timeEnd('id')
 //console.trace
 console.trace()
 
-//console.assert()
+//console.assert
 console.assert(true)
 
